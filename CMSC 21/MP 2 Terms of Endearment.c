@@ -1,0 +1,4 @@
+/*Implement the term as a structure. A term has a coefficient, an exponent, and an independent variable. Since the independent variable is always x (at least for this MP), I leave the decision to you whether to include this or not in the term definition. You should have at least two functions. One that performs the multiplication (must accept 2 term arguments, the 2 terms to be multiplied) and returns the product. The other is a function that displays the term. In converting the string input to the term structure, you are allowed to use atoi(int x = atoi(str) - atoi returns the integer equivalent of the string st), and strtok for tokenizing. But this is not required.
+*/
+
+//I was absent during this MP haha
