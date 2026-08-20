@@ -24,7 +24,7 @@ int main(){
 
         scanf("%d", &size);
 
-        int nums[size];
+        int nums[1]; //change 1 to size, just an error in my vsc for some reason
         int linctr = 0, binctr = 0;
 
         for (int i = 0; i < size; i++){
