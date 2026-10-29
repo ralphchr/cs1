@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="88" viewBox="0 0 1200 88" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Written from scratch. Kept as a record. Ralphchr / CS1.</title>
+  <rect width="1200" height="88" rx="5" fill="#0C1117"/>
+  <path d="M0 .5H1200" stroke="#303743"/>
+  <path d="M0 .5H160" stroke="#9873F5"/>
+  <path d="M26 34L16 44L26 54M44 34L54 44L44 54M39 30L31 58" stroke="#98C5F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="76" y="50" fill="#B5BEC9" font-family="'Segoe UI', Arial, sans-serif" font-size="18">Written from scratch. <tspan fill="#F0EDE6">Kept as a record.</tspan></text>
+  <text x="1174" y="49" text-anchor="end" fill="#98C5F5" font-family="Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2">RALPHCHR <tspan fill="#9873F5">/</tspan> CS1</text>
+</svg>

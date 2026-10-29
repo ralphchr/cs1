@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="232" viewBox="0 0 1200 232" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">The toolkit</title>
+  <desc id="desc">C for programming fundamentals. C++ for classes and data structures. Python for scientific computing with NumPy, SciPy, and Matplotlib.</desc>
+  <rect x=".5" y=".5" width="1199" height="231" rx="7.5" fill="#0C1117" stroke="#29313C"/>
+  <path d="M24 1H1176" stroke="#9873F5"/>
+  <text x="28" y="34" fill="#AEB8C5" font-family="Consolas, 'Liberation Mono', monospace" font-size="11" letter-spacing="2">LANGUAGES / LIBRARIES</text>
+  <g fill="#0A0D13" stroke="#29313C">
+    <rect x="24.5" y="54.5" width="367" height="153" rx="4"/>
+    <rect x="416.5" y="54.5" width="367" height="153" rx="4"/>
+    <rect x="808.5" y="54.5" width="367" height="153" rx="4"/>
+  </g>
+  <g fill="#121823" stroke="#353D4C">
+    <rect x="45.5" y="76.5" width="46" height="46" rx="4"/>
+    <rect x="437.5" y="76.5" width="46" height="46" rx="4"/>
+    <rect x="829.5" y="76.5" width="46" height="46" rx="4"/>
+  </g>
+  <g fill="#98C5F5" font-family="Consolas, 'Liberation Mono', monospace" font-weight="700" text-anchor="middle">
+    <text x="68.5" y="109" font-size="29">C</text>
+    <text x="460.5" y="106" font-size="19">C++</text>
+    <text x="852.5" y="106" font-size="19">Py</text>
+  </g>
+  <g font-family="'Segoe UI', Arial, sans-serif">
+    <g fill="#F0EDE6" font-size="22" font-weight="700">
+      <text x="108" y="105">C</text><text x="500" y="105">C++</text><text x="892" y="105">Python</text>
+    </g>
+    <g fill="#B5BEC9" font-size="15">
+      <text x="46" y="150">Programming fundamentals</text>
+      <text x="438" y="150">Classes &amp; data structures</text>
+      <text x="830" y="150">Scientific computing</text>
+    </g>
+  </g>
+  <g font-family="Consolas, 'Liberation Mono', monospace" font-size="11">
+    <text x="46" y="183" fill="#98C5F5">LOOPS / STRINGS / FUNCTIONS</text>
+    <text x="438" y="183" fill="#98C5F5">POINTERS / LISTS / MEMORY</text>
+    <g fill="#121823" stroke="#353047">
+      <rect x="830" y="166" width="65" height="25" rx="3"/>
+      <rect x="902" y="166" width="65" height="25" rx="3"/>
+      <rect x="974" y="166" width="101" height="25" rx="3"/>
+    </g>
+    <g fill="#98C5F5" text-anchor="middle">
+      <text x="862.5" y="183">NumPy</text><text x="934.5" y="183">SciPy</text><text x="1024.5" y="183">Matplotlib</text>
+    </g>
+  </g>
+</svg>

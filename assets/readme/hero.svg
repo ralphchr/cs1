@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">COMPUTER SCIENCE. YEAR ONE.</title>
+  <desc id="desc">Ralphchr's first-year computer science archive at UPC. A dark banner with blue typography, violet accents, and a small illustrated C program.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8DBBF0" stroke-opacity=".035"/>
+    </pattern>
+    <linearGradient id="accent" x1="32" y1="0" x2="1168" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#98C5F5"/><stop offset=".55" stop-color="#9873F5"/><stop offset="1" stop-color="#9873F5" stop-opacity=".1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="380" rx="8" fill="#0C1117"/>
+  <rect x=".5" y=".5" width="1199" height="379" rx="7.5" stroke="#29313C"/>
+  <path d="M1 1H1199V379H1Z" fill="url(#grid)"/>
+  <path d="M32 1H1168" stroke="url(#accent)" stroke-width="2"/>
+  <g font-family="Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="2">
+    <text x="48" y="42" fill="#B5BEC9">RALPHCHR <tspan fill="#9873F5">/</tspan> ACADEMIC ARCHIVE</text>
+    <text x="1152" y="42" text-anchor="end" fill="#B5BEC9">VOL. <tspan fill="#98C5F5">01</tspan></text>
+  </g>
+  <g font-family="'Segoe UI', Arial, sans-serif" font-size="68" font-weight="750" letter-spacing="-2.5">
+    <text x="45" y="137" fill="#F0EDE6">COMPUTER SCIENCE.</text>
+    <text x="45" y="211" fill="#98C5F5">YEAR ONE<tspan fill="#9873F5">.</tspan></text>
+  </g>
+  <text x="49" y="251" fill="#AEB8C5" font-family="'Segoe UI', Arial, sans-serif" font-size="17">Machine problems, homework, and projects.</text>
+  <rect x="857" y="96" width="279" height="172" rx="5" fill="#10151E" stroke="#353047"/>
+  <rect x="843" y="83" width="279" height="172" rx="5" fill="#0A0D13" stroke="#39424F"/>
+  <path d="M843 115H1122" stroke="#29313C"/>
+  <circle cx="859" cy="99" r="3" fill="#9873F5"/>
+  <circle cx="871" cy="99" r="3" fill="#98C5F5"/>
+  <circle cx="883" cy="99" r="3" fill="#46505E"/>
+  <text x="1107" y="103" text-anchor="end" fill="#929DAD" font-family="Consolas, 'Liberation Mono', monospace" font-size="10">hello.c</text>
+  <g font-family="Consolas, 'Liberation Mono', monospace" font-size="13">
+    <g fill="#697587" text-anchor="end">
+      <text x="871" y="143">01</text><text x="871" y="167">02</text><text x="871" y="191">03</text><text x="871" y="215">04</text>
+    </g>
+    <text x="888" y="143" fill="#98C5F5">int <tspan fill="#E7E6E4">main(void) {</tspan></text>
+    <text x="888" y="167" fill="#8B97A8">  // start somewhere.</text>
+    <text x="888" y="191" fill="#B49AF4">  return <tspan fill="#98C5F5">0</tspan><tspan fill="#E7E6E4">;</tspan></text>
+    <text x="888" y="215" fill="#E7E6E4">}</text>
+    <path d="M888 231H897" stroke="#9873F5" stroke-width="2"/>
+  </g>
+  <path d="M48 292H1152" stroke="#29313C"/>
+  <g font-family="Consolas, 'Liberation Mono', monospace" font-size="12">
+    <rect x="48" y="313" width="53" height="27" rx="3" fill="#121823" stroke="#313744"/>
+    <text x="74.5" y="331" text-anchor="middle" fill="#98C5F5">C</text>
+    <rect x="109" y="313" width="61" height="27" rx="3" fill="#121823" stroke="#313744"/>
+    <text x="139.5" y="331" text-anchor="middle" fill="#98C5F5">C++</text>
+    <rect x="178" y="313" width="85" height="27" rx="3" fill="#121823" stroke="#313744"/>
+    <text x="220.5" y="331" text-anchor="middle" fill="#98C5F5">Python</text>
+    <text x="1152" y="331" text-anchor="end" fill="#B5BEC9" letter-spacing="1.5">FIRST-YEAR COURSEWORK <tspan fill="#9873F5">/</tspan> UPC</text>
+  </g>
+</svg>
