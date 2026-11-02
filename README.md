@@ -1,5 +1,14 @@
 <div align="center">
-  <img src="assets/readme/hero.svg" alt="COMPUTER SCIENCE. YEAR ONE. Ralph's first-year coursework archive at UPC." width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/readme/hero-mobile-light.svg">
+    <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/readme/hero-light.svg">
+    <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/readme/hero-mobile-animated-light.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/readme/hero-animated-light.svg">
+    <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/readme/hero-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/readme/hero.svg">
+    <source media="(max-width: 600px)" srcset="assets/readme/hero-mobile-animated.svg">
+    <img src="assets/readme/hero-animated.svg" alt="COMPUTER SCIENCE. YEAR ONE. Machine problems, homework, and projects from UP Cebu." width="100%">
+  </picture>
 </div>
 
 <p align="center">
@@ -8,7 +17,7 @@
   <a href="#field-notes">Field notes</a>
 </p>
 
-A collection of machine problems, exercises, homework, and projects from my first year as a **Computer Science student at UPC**. From the first loops to linked lists, this is where I worked through the fundamentals, one problem at a time.
+A collection of machine problems, exercises, homework, and projects from my first year as a **Computer Science student at UP Cebu**.
 
 <a name="coursework"></a>
 
@@ -33,7 +42,12 @@ A collection of machine problems, exercises, homework, and projects from my firs
 
 ## `02 /` Toolkit
 
-<img src="assets/readme/toolkit.svg" alt="Languages: C for fundamentals, C++ for classes and data structures, and Python for scientific computing. Python libraries: NumPy, SciPy, and Matplotlib." width="100%">
+<picture>
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/readme/toolkit-mobile-light.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/readme/toolkit-light.svg">
+  <source media="(max-width: 600px)" srcset="assets/readme/toolkit-mobile.svg">
+  <img src="assets/readme/toolkit.svg" alt="Languages: C for fundamentals, C++ for classes and data structures, and Python for scientific computing. Python libraries: NumPy, SciPy, and Matplotlib." width="100%">
+</picture>
 
 <a name="field-notes"></a>
 
@@ -71,4 +85,13 @@ python "Physics Projectile Homework.py"
 
 <br>
 
-<img src="assets/readme/footer.svg" alt="Written from scratch. Kept as a record. Ralphchr / CS1." width="100%">
+<picture>
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/readme/footer-mobile-light.svg">
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/readme/footer-light.svg">
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/readme/footer-mobile-animated-light.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/readme/footer-animated-light.svg">
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/readme/footer-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/readme/footer.svg">
+  <source media="(max-width: 600px)" srcset="assets/readme/footer-mobile-animated.svg">
+  <img src="assets/readme/footer-animated.svg" alt="Padayon! Pahuway kung kapoy. Balik lang. Kaya ra na." width="100%">
+</picture>
