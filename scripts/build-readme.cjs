@@ -88,22 +88,6 @@ function hero(mobile, animated) {
   return s.finish();
 }
 
-function footer(mobile, animated) {
-  const w = mobile ? 600 : 1200, h = mobile ? 280 : 250, p = mobile ? 32 : 48;
-  const s = new Artwork(w, h, 'Padayon!', 'Pahuway kung kapoy. Balik lang. Kaya ra na.');
-  grid(s);
-  s.add(`<path d="M${p} 18H${w - p}" stroke="${C.silver}" stroke-opacity=".22"/>`);
-  s.add(headline(s, 'Padayon!', p - 3, mobile ? 126 : 139, mobile ? 88 : 112, animated, 'padayon'));
-  if (mobile) {
-    s.add(s.text('Pahuway kung kapoy.', p, 180, 23, 'mono', C.blue));
-    s.add(s.text('Balik lang. Kaya ra na.', p, 213, 23, 'mono', C.blue));
-  } else {
-    s.add(s.text('Pahuway kung kapoy. Balik lang. Kaya ra na.', p + 1, 192, 24, 'mono', C.blue));
-  }
-  s.add(underline(p, h - 27, mobile ? 132 : 200, animated));
-  return s.finish();
-}
-
 function toolkit(mobile) {
   const w = mobile ? 600 : 1200, h = mobile ? 350 : 185, p = mobile ? 32 : 48;
   const s = new Artwork(w, h, 'Toolkit', 'C for fundamentals. C++ for classes and data structures. Python with NumPy, SciPy, and Matplotlib.');
@@ -125,7 +109,7 @@ function light(svg) {
 }
 
 fs.mkdirSync(output, { recursive: true });
-for (const [stem, build] of [['hero', hero], ['footer', footer], ['toolkit', toolkit]]) {
+for (const [stem, build] of [['hero', hero], ['toolkit', toolkit]]) {
   for (const mobile of [false, true]) {
     for (const animated of stem === 'toolkit' ? [false] : [false, true]) {
       const filename = stem + (mobile ? '-mobile' : '') + (animated ? '-animated' : '');

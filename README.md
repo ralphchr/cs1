@@ -82,16 +82,3 @@ python "Physics Projectile Homework.py"
 ```
 
 </details>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/readme/footer-mobile-light.svg">
-  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/readme/footer-light.svg">
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/readme/footer-mobile-animated-light.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/readme/footer-animated-light.svg">
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/readme/footer-mobile.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/readme/footer.svg">
-  <source media="(max-width: 600px)" srcset="assets/readme/footer-mobile-animated.svg">
-  <img src="assets/readme/footer-animated.svg" alt="Padayon! Pahuway kung kapoy. Balik lang. Kaya ra na." width="100%">
-</picture>
